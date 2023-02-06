@@ -1,0 +1,50 @@
+
+body, html {
+    opacity: 1;
+    height: 100%;
+    margin: 0;
+    background: #02265A;
+    color: #FFFFFF;
+  }
+.container-1{
+    background-image: url('/images/background-image.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 1; */
+}
+.login-box{
+max-height: 575px;
+max-width: 441px;
+
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(12.5px);
+opacity: 2;
+
+}
+h3{
+font-size: 40px;
+font-weight: 700;
+line-height: 24px;
+color: #FFFFFF;
+text-align: left;
+
+}
+p{
+    font-weight: 300;
+font-size: 22px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.form-control{
+    background: transparent;
+    border: none;
+    border-bottom:1px solid #FFFFFF;
+    opacity: 2;
+}
+.form-control:focus{
+    background: none;
+}
