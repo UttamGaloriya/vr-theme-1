@@ -49,13 +49,10 @@ $(document).ready(function() {
 	});	
 
 	// Add new js functions here -----------------------------------------------------------------
-	$(".toggle-sidebar,.overlay").click(function(){
-		$("body").toggleClass("sidebar-open")	
-	});
 
-	$(".btn-search,.btn-close-search").click(function () {
-		$("body").toggleClass("search-open");
-	});
+
+
+
 
 	// Don't add anything below this --------------------------------------------------------------
 	// Add Class on Window Load
