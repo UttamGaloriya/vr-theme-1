@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Dashbord</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="#" title="Company" class="company">
+                <img src="images/logo-admin.svg" alt="logo" class="logo">
+                <img src="images/logo-mobile.svg" alt="logo" class="logo-mobile">
+            </a>
+            <button class="btn-menu toggle-sidebar" type="button"><img src="images/toggle-button.svg"
+                    alt="sidebar menu"></button>
+            <div class="search-bar">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-close-search"><img src="./images/search.svg" alt="close"></button>
+            </div>
+            <button type="button" class="btn-buy btn btn-primary btn-lg ">Buy BitCoins</button>
+            <div class="dropdown">
+                <button class=" dropdown-toggle nt-btn" type="button" data-bs-toggle="dropdown">
+                    <img src="./images/bell-icon.svg" class="notification">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class=" dropdown-toggle profile" type="button" data-bs-toggle="dropdown">
+                    <img src="./images/user.png">
+                    <span>John Doe</span>
+                    <img src="./images/dropdown-arrow.svg" class="ic-down">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">My Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Help</a></li>
+                    <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="sidebar">
+            <nav>
+                <ul class="side-bar">
+                    <li class="nav-item"><a class="nav-link active" href="dashbord.html"><span class="icon-img"><img
+                                    src="/images/icon-dashboard.svg" alt="Dashboard"></span><span
+                                class="link-span">Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/innerpage.html"><span class="icon-img"><img
+                                    src="/images/icon-analysis.svg" alt="Analytics"></span><span
+                                class="link-span">Analytics</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/icon-dashboard.svg" alt="Resources"></span><span
+                                class="link-span">Resources</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/icon-price.svg" alt="Price"></span><span
+                                class="link-span">Price</span></a class="link-span"></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/icon-community.svg" alt="Community"></span><span
+                                class="link-span">Community</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/icon-info.svg" alt="About"></span><span
+                                class="link-span">About</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/setting-icon.svg" alt="Setting"></span><span
+                                class="link-span">Setting</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overlay"></div>
+        <div class="main-content">
+            <h3 class="dashbord sm-center">Dashboard</h3>
+            <div class="info-box">
+                <div class="info d-flex justify-content-between">
+                    <div class="left-info">
+                        <p class="title-info">My Wallet</p>
+                        <p class="currency"> $865.2K</p>
+                        <span class="profit-loss text-success">+$20.9k</span>
+                        <span class="status-present">Since last week</span>
+                    </div>
+                    <div class="info-icon"><img src="/images/wallet.svg" alt="wallet"></div>
+                </div>
+                <div class="info d-flex justify-content-between">
+                    <div class="left-info">
+                        <p class="title-info">Profit Ratio</p>
+                        <p class="currency"> 12.57%</p>
+                        <span class="profit-loss text-danger">+2.95%</span>
+                        <span class="status-present">Since last week</span>
+                    </div>
+                    <div class="info-icon"><img src="/images/ratio.svg" alt="wallet"></div>
+                </div>
+                <div class="info d-flex justify-content-between">
+                    <div class="left-info">
+                        <p class="title-info">Invested Amount</p>
+                        <p class="currency"> $4.32M</p>
+                        <span class="profit-loss text-danger">+$20.9k</span>
+                        <span class="status-present">Since last week</span>
+                    </div>
+                    <div class="info-icon"><img src="/images/dollar.svg" alt="wallet"></div>
+                </div>
+            </div>
+        <div class="row">
+
+            
+
+            <div class="col-xl-8">
+                <div class="sales-graph">
+                    <div class="sales-title">
+                        <h2>Market Overview</h2>
+                        <div class="legend">
+                            <button class="btn" type="button">Weekly</button>
+                            <button class="btn" type="button">Monthly</button>
+                            <button class="btn active" type="button">Yearly</button>
+                        </div>
+                    </div>
+                    <img src="images/graph.png" alt="sales" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-xl-4 coin-list-data">
+                <div class="title-list d-flex justify-content-between align-items-center">
+                    <h2>My Watchlist</h2>
+                    <button class="btn" type="button">View all</button>
+                </div>
+                <div class="coin-list">
+                    <table>
+                        <tr>
+                            <td class="coin-name md">BitCoin</td>
+                            <td class="coin-price md ">$34129.90</td>
+                        </tr>
+                        <tr>
+                            <td class="coin-short-name sb">BTC</td>
+                            <td class="coin-profit-loss sb text-end">+250(+12%)</td>
+                        </tr>
+                        <tr>
+                            <td class="coin-name md">Litecoin</td>
+                            <td class="coin-price md ">$34129.90</td>
+                        </tr>
+                        <tr>
+                            <td class="coin-short-name sb">LTC</td>
+                            <td class="coin-profit-loss sb text-end">+250(+12%)</td>
+                        </tr>
+                        <tr>
+                            <td class="coin-name md">Namecoin</td>
+                            <td class="coin-price md  text-danger">$34129.90</td>
+                        </tr>
+                        <tr>
+                            <td class="coin-short-name sb">NTC</td>
+                            <td class="coin-profit-loss sb text-end">+250(+12%)</td>
+                        </tr>
+                        <tr>
+                            <td class="coin-name md">BitCoin</td>
+                            <td class="coin-price md ">$34129.90</td>
+                        </tr>
+                        <tr>
+                            <td class="coin-short-name sb">BTC</td>
+                            <td class="coin-profit-loss sb text-end">+250(+12%)</td>
+                        </tr>
+                      
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tramsaction-table-container">
+      
+      
+        <div class="table-responsive">
+            <div class="title-list d-flex justify-content-between align-items-center">
+                <h2>Recent Transaction</h2>
+                <button class="btn" type="button">View all</button>
+            </div>
+            <table class="table transaction-table">
+                <thead>
+                    <tr>
+                        <th scope="col">date</th>
+                        <th scope="col">transaction id</th>
+                        <th scope="col">coin name</th>
+                        <th scope="col">value</th>
+                        <th scope="col">return</th>
+                        <th scope="col">status</th>
+                        <th scope="col">action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>558612</td>
+                        <td>Bitcoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>
+                        <td><span class="text-success">Completed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>487441</td>
+                        <td>Dogecoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>
+                        <td><span class="text-success">Completed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>449003</td>
+                        <td>Dogecoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>
+                        <td><span class="text-success">Completed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>653518</td>
+                        <td>Litecoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>
+                        <td><span class="text-danger">Failed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>651535</td>
+                        <td>Bitcoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>                                    
+                        <td><span class="text-success">Completed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>558612</td>
+                        <td>Litecoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>
+                        <td><span class="text-success">Completed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>558612</td>
+                        <td>Dogecoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>
+                        <td><span class="text-danger">Failed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>653518</td>
+                        <td>Bitcoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>
+                        <td><span class="text-success">Completed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td>14/01/201</td>
+                        <td>267400</td>
+                        <td>Litecoin</td>
+                        <td>$34567</td>
+                        <td>#12345</td>
+                        <td><span class="text-danger">Failed</span></td>
+                        <td><img src="./images/action-dots.svg" alt=""></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

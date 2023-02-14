@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>
+        .container-3 {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.08);
+            border-radius: 20px;
+            padding: 20px 30px;
+        }
+
+        .container-3 h2,.container-4 h2 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 20px;
+            margin-top: 60px;
+        }
+    </style>
+    <title>Innerpage</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#" title="Company" class="company">
+            <img src="images/logo-admin.svg" alt="logo" class="logo">
+            <img src="images/logo-mobile.svg" alt="logo" class="logo-mobile">
+        </a>
+        <button class="btn-menu toggle-sidebar" type="button"><img src="images/toggle-button.svg"
+                alt="sidebar menu"></button>
+        <div class="search-bar">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn btn-close-search"><img src="./images/search.svg" alt="close"></button>
+        </div>
+        <button type="button" class="btn-buy btn btn-primary btn-lg ">Buy BitCoins</button>
+        <div class="dropdown">
+            <button class=" dropdown-toggle nt-btn" type="button" data-bs-toggle="dropdown">
+                <img src="./images/bell-icon.svg" class="notification">
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class=" dropdown-toggle profile" type="button" data-bs-toggle="dropdown">
+                <img src="./images/user.png">
+                <span>John Doe</span>
+                <img src="./images/dropdown-arrow.svg" class="ic-down">
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+                <li><a class="dropdown-item" href="index.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="main-navigation">
+            <nav>
+                <ul class="sidebar">
+                    <li class="nav-item"><a class="nav-link " href="dashbord.html"><span class="icon-img"><img
+                                    src="/images/icon-dashboard.svg" alt="Dashboard"></span><span
+                                class="link-span">Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href=""><span class="icon-img"><img
+                                    src="/images/icon-analysis.svg" alt="Analytics"></span><span
+                                class="link-span">Analytics</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/icon-dashboard.svg" alt="Resources"></span><span
+                                class="link-span">Resources</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/icon-price.svg" alt="Price"></span><span
+                                class="link-span">Price</span></a class="link-span"></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/icon-community.svg" alt="Community"></span><span
+                                class="link-span">Community</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/icon-info.svg" alt="About"></span><span
+                                class="link-span">About</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="icon-img"><img
+                                    src="/images/setting-icon.svg" alt="Setting"></span><span
+                                class="link-span">Setting</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+
+            <h3 class="dashbord">Analytics</h3>
+            <div class="container-3">
+                <div class="login-input">
+                    <div class="one-col g-2">
+                        <h2>One Column</h2>
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">User Name</label>
+                        </div>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">User Name</label>
+                        </div>
+                    </div>
+                    <div class="two-col">
+                        <h2>Two Column</h2>
+                        <div class="container">
+                            <div class="row  row-cols-1  row-cols-md-2 g-2">
+                                <div class="col">
+
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">First Name</label>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control bd-dash" id="floatingInput"
+                                            placeholder="name@example.com" value="@johndoe">
+                                        <label for="floatingInput">User Name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="password" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com" value="12345">
+                                        <label for="floatingInput">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="has-validation">
+                                        <div class="form-floating is-invalid">
+                                            <input type="text" class="form-control is-invalid" id="floatingInputGroup2"
+                                                placeholder="Username" required>
+                                            <label for="floatingInputGroup2">Designation</label>
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Please enter Valid data
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="three-col">
+                    <h2>Three Column</h2>
+                    <div class="container">
+                        <div class="row g-2 row-cols-1 row-cols-md-3">
+                            <div class="col">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">First Name</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="John">
+                                    <label for="floatingInput">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" value="Designer">
+                                    <label for="floatingInput">Designation</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="four-col">
+                    <div class="two-col">
+                        <h2>Two Column</h2>
+                        <div class="container">
+                            <div class="row g-2 row-cols-1 row-cols-md-2 row-cols-lg-4">
+                                <div class="col ">
+
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">First Name</label>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating ">
+                                        <input type="text" class="form-control bd-dash" id="floatingInput"
+                                            placeholder="name@example.com" value="@johndoe">
+                                        <label for="floatingInput">User Name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <input type="password" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com" value="12345">
+                                        <label for="floatingInput">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="has-validation">
+                                        <div class="form-floating is-invalid">
+                                            <input type="text" class="form-control is-invalid" id="floatingInputGroup2"
+                                                placeholder="Username" required>
+                                            <label for="floatingInputGroup2">Designation</label>
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Please enter Valid data
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="five-col">
+                    <h2>Other form elements</h2>
+                    <h3>File Upload</h3>
+                    <div class="file-upload  input-group">
+                        <div class="file-content">
+                            <button class="btn btn-outline-primary" type="file" id="button-addon1"><img
+                                    src="./images/uplod-icon.svg">Choose File</button>
+                            <span>No item selected</span>
+                        </div>
+                        <input class="form-control" placeholder="" type="file"
+                            aria-label="Example text with button addon" aria-describedby="button-addon1">
+                    </div>
+                    <h3>Checkbox</h3>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input custom-checkbox" type="checkbox" value="option1" id="option1"
+                            checked>
+                        <label class="form-check-label" for="option1">Option 1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input custom-checkbox" type="checkbox" value="option2" id="option2">
+                        <label class="form-check-label" for="option2">Option 2
+                        </label>
+                    </div>
+                    <h3>Radio Button</h3>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" value="option1" name="flexRadioDefault" id="Radio1"
+                            checked>
+                        <label class="form-check-label" for="Radio1">Option 1
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" value="option2"
+                            id="Radio2">
+                        <label class="form-check-label" for="Radio2">Option 2
+                        </label>
+                    </div>
+                    <h3 class="form-title">Call to action</h3>
+                    <div class="button-list">
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-outline-primary">Secondary</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-4">
+                <h2>Tabbing</h2>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="tab-item" role="presentation">
+                        <button class="tab-link active" data-bs-toggle="tab" data-bs-target="#tab-1" type="button"
+                            role="tab" aria-controls="home" aria-selected="true">Tab1</button>
+                    </li>
+                    <li class="tab-item" role="presentation">
+                        <button class="tab-link" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab"
+                            aria-controls="profile" aria-selected="false">Tab2</button>
+                    </li>
+                    <li class="tab-item" role="presentation">
+                        <button class="tab-link" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab"
+                            aria-controls="contact" aria-selected="false">Tab3</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English.It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.
+                    </div>
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel">It
+                        second, It is a long established fact that a reader will be distracted by the readable content
+                        of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                        more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                        making it look like readable English.It is a long established fact that a reader will be
+                        distracted by the readable content of a page when looking at its layout.
+                    </div>
+                    <div class="tab-pane fade" id="tab-3" role="tabpanel">
+                        third, It is a long established fact that a reader will be distracted by the readable content of
+                        a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                        normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                        like readable English.It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
